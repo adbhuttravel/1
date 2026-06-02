@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 60 50% 98%; /* Very light beige: #F5F5DC */
+    --foreground: 20 14.3% 4.1%;
+    --card: 30 56% 98%; 
+    --card-foreground: 20 14.3% 4.1%;
+    --popover: 30 56% 98%;
+    --popover-foreground: 20 14.3% 4.1%;
+    --primary: 30 50% 96.1%; /* Light skin color: #f3ece7 */
+    --primary-foreground: 20 14.3% 4.1%; /* Black text for header */
+    --secondary: 30 50% 96.1%;
+    --secondary-foreground: 220 14% 10%;
+    --muted: 220 9% 96%;
+    --muted-foreground: 220 9% 45%;
+    --accent: 294 96% 29%; /* Purple accent: #810390 */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%;
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    --ring: 294 96% 29%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 60 9.1% 97.8%;
+    --card: 20 14.3% 4.1%;
+    --card-foreground: 60 9.1% 97.8%;
+    --popover: 20 14.3% 4.1%;
+    --popover-foreground: 60 9.1% 97.8%;
+    --primary: 32 43% 14%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 12 6.5% 15.1%;
+    --secondary-foreground: 60 9.1% 97.8%;
+    --muted: 12 6.5% 15.1%;
+    --muted-foreground: 24 5.4% 63.9%;
+    --accent: 294 85% 64%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 12 6.5% 15.1%;
+    --input: 12 6.5% 15.1%;
+    --ring: 294 85% 64%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .animated-underline {
+    position: relative;
+    text-decoration: none;
+  }
+  .animated-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: hsl(var(--accent));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .animated-underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+  
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  .animate-marquee-infinite {
+    animation: marquee 30s linear infinite;
+  }
+}
+
+.custom-cursor-follower {
+  position: fixed;
+  top: -10px;
+  left: -10px;
+  width: 19px;
+  height: 19px;
+  background: radial-gradient(circle, hsl(var(--muted-foreground) / 0.8) 0%, hsl(var(--muted-foreground) / 0) 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+  transition: background 0.2s ease-out, width 0.3s ease-out, height 0.3s ease-out;
+  transform: translate3d(calc(var(--follower-x, 0) * 1px), calc(var(--follower-y, 0) * 1px), 0);
+}
+
+.custom-cursor-follower.is-active {
+    transform: translate3d(calc(var(--follower-x, 0) * 1px), calc(var(--follower-y, 0) * 1px), 0) scale(1.5);
+    background: radial-gradient(circle, hsl(270 90% 65% / 0.8) 0%, hsl(270 90% 65% / 0) 70%);
+}

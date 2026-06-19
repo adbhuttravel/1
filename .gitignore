@@ -38,3 +38,6 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Flyer source artwork (working files only — app uses /images/theme-flyers)
+public/images/services/Home/Theme category-FLYERS FOR CATALOG/

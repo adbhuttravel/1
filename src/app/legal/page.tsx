@@ -79,12 +79,12 @@ export default function LegalPage() {
                         <span className="font-semibold">Contact:</span>
                         <Link href="tel:+919802125147" className="hover:text-accent">+91 9802125147</Link>
                          | 
-                        <Link href="mailto:info@adbhuttravel.com" className="hover:text-accent">info@adbhuttravel.com</Link>
+                        <Link href="mailto:info@adbhuttravel.in" className="hover:text-accent">info@adbhuttravel.in</Link>
                     </p>
                     <p className="flex items-center justify-center md:justify-start gap-3">
                         <Globe className="w-5 h-5 text-accent"/>
                         <span className="font-semibold">Website:</span>
-                        <Link href="https://www.adbhuttravel.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent">www.adbhuttravel.com</Link>
+                        <Link href="https://www.adbhuttravel.in" target="_blank" rel="noopener noreferrer" className="hover:text-accent">www.adbhuttravel.in</Link>
                     </p>
                      <div className="border-t pt-4 mt-4">
                         <p className="font-semibold text-lg text-accent">Registered Office:</p>

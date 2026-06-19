@@ -43,7 +43,7 @@ export function WhatsAppButton() {
         </div>
        )}
         <Link 
-            href="https://wa.me/919671825147" 
+            href="https://wa.me/919802125147"
             target="_blank" 
             rel="noopener noreferrer" 
             className="transition-transform duration-300 hover:scale-110"

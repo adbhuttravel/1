@@ -16,7 +16,7 @@ const services = [
     title: "Personalized Itineraries",
     description: "Your journey should be as unique as you are. We go beyond pre-packaged tours to design a travel blueprint that perfectly aligns with your passions, pace, and preferences. Our experts collaborate with you to craft a one-of-a-kind adventure, ensuring every detail reflects your personal travel style.",
     example: "Example: A 10-day culinary tour through Italy, featuring private cooking classes in Tuscany, wine tasting in a Chianti vineyard, and a guided food market exploration in Bologna, all tailored to your love for authentic Italian cuisine.",
-    images: ["/images/services/Services/Personalised Itn.png"],
+    images: ["/images/media/Services/Personalised Itn.png"],
     dataAiHints: ["travel map planning"],
     },
     {
@@ -24,7 +24,7 @@ const services = [
     title: "Flight Bookings",
     description: "Navigating the world of air travel can be complex. Let us handle it for you. We leverage our expertise to find the most efficient routes, optimal layovers, and competitive fares across a global network of airlines. Our goal is a seamless, stress-free booking experience from start to finish.",
     example: "Example: For a multi-city European holiday, we can book a complex open-jaw ticket, flying you into Rome and out of Paris, with a convenient and cost-effective flight to Barcelona in between, saving you both time and money.",
-    images: ["/images/services/Services/Flight Booking.jpeg"],
+    images: ["/images/media/Services/Flight Booking.jpeg"],
     dataAiHints: ["airplane wing clouds"],
     },
     {
@@ -33,8 +33,8 @@ const services = [
     description: "Where you stay is a crucial part of your travel experience. We handpick and book accommodations that promise comfort, quality, and character. From world-class luxury resorts and charming boutique hotels to cozy B&Bs, we ensure your home away from home meets our high standards and your expectations.",
     example: "Example: On a romantic honeymoon in Bali, we can arrange a stay in a private pool villa overlooking the serene rice paddies of Ubud, followed by a chic beachfront resort to catch the stunning sunsets in Seminyak.",
     images: [
-        "/images/services/Services/Hotel Booking 1.jpeg", 
-        "/images/services/Services/Hotel Booking 2.jpeg"
+        "/images/media/Services/Hotel Booking 1.jpeg", 
+        "/images/media/Services/Hotel Booking 2.jpeg"
     ],
     dataAiHints: ["luxury hotel room", "hotel suite"],
     },
@@ -44,11 +44,11 @@ const services = [
     description: "Discover the world with like-minded individuals on our expertly curated group tours. We keep our groups small to foster a sense of community and provide a more intimate experience. Led by knowledgeable local guides, our tours offer a perfect balance of planned activities and personal free time for exploration.",
     example: "Example: Join our 'Wonders of Peru' tour to hike the historic Inca Trail to Machu Picchu. You’ll share the journey with a small group of fellow adventurers and be led by a local guide who brings the ancient Incan world to life.",
     images: [
-        "/images/services/Home/Adbhut Tour Group 1.jpg",
-        "/images/services/Home/Adbhut Tour Group 4.JPG",
-        "/images/services/Home/Adbhut Tour Group 10.JPG",
-        "/images/services/Home/Mice g2.jpg",
-        "/images/services/Home/Mice g4.jpg"
+        "/images/media/Home/Adbhut Tour Group 1.jpg",
+        "/images/media/Home/Adbhut Tour Group 4.JPG",
+        "/images/media/Home/Adbhut Tour Group 10.JPG",
+        "/images/media/Home/Mice g2.jpg",
+        "/images/media/Home/Mice g4.jpg"
     ],
     dataAiHints: ["group travel friends", "corporate group photo", "friends traveling together", "group friends", "outdoor group"],
     },
@@ -58,9 +58,9 @@ const services = [
     description: "Elevate your business events with our professional MICE (Meetings, Incentives, Conferences, and Exhibitions) services and corporate travel management. We provide end-to-end solutions, from strategic planning and venue sourcing to seamless on-site logistics, ensuring your event is both successful and memorable.",
     example: "Example: We can organize a week-long sales incentive trip to Dubai for your top performers, including 5-star accommodation, team-building desert safaris, and a formal gala dinner at an exclusive venue with city skyline views.",
     images: [
-        "/images/services/Home/Adbhut Tour Group 4.JPG",
-        "/images/services/MICE/MICE E2.jpg",
-        "/images/services/MICE/Mice g5.jpg",
+        "/images/media/Home/Adbhut Tour Group 4.JPG",
+        "/images/media/MICE/MICE E2.jpg",
+        "/images/media/MICE/Mice g5.jpg",
     ],
     dataAiHints: ["corporate group photo", "business meeting", "corporate conference"],
     },
@@ -70,7 +70,7 @@ const services = [
     description: "Navigating the complexities of international travel documentation can be daunting. Our dedicated team simplifies the process by providing expert guidance on visa requirements and applications, ensuring you have all the necessary paperwork. We also help you choose the right travel insurance plan for complete peace of mind on your journey.",
     example: "Example: Planning a trip to Europe? We'll guide you through the Schengen visa application process, from filling out forms to gathering documents, and help you select a comprehensive insurance policy that covers medical emergencies and trip cancellations.",
     images: [
-        "/images/services/Services/Visa and  Passport.png",
+        "/images/media/Services/Visa and  Passport.png",
     ],
     dataAiHints: ["passport visa stamps"],
     },
@@ -80,9 +80,9 @@ const services = [
     description: "Start and end your journey with convenient and reliable transportation. We arrange seamless airport transfers to and from your accommodation. Additionally, our local cab services, powered by North Cab, are available for sightseeing, business meetings, or simply exploring the city at your own pace, ensuring you travel comfortably and safely.",
     example: "Example: Upon landing in Delhi, your pre-booked cab will be waiting to take you directly to your hotel. The next day, you can book the same trusted service for a full-day city tour, visiting all the major landmarks without any hassle.",
     images: [
-        "/images/services/Services/Airport Cab.png",
-        "/images/services/Services/Airport cab 2.png",
-        "/images/services/Services/Airport Cab 3.png"
+        "/images/media/Services/Airport Cab.png",
+        "/images/media/Services/Airport cab 2.png",
+        "/images/media/Services/Airport Cab 3.png"
     ],
     dataAiHints: ["taxi car city", "person entering cab", "cab interior"],
     },
@@ -91,7 +91,7 @@ const services = [
     title: "Cruise Packages",
     description: "Set sail on the seas with our premier cruise packages. We partner with world-renowned cruise lines to bring you exceptional voyages. We also specialize in organizing combo packages that pair your dream cruise with exciting land excursions for a complete holiday experience. We proudly offer packages for:",
     example: "Example: Embark on a 7-night Royal Caribbean cruise through the Mediterranean, then spend 3 days exploring the historic wonders of Rome, with all hotels and transfers seamlessly arranged by our team.",
-    images: [ "/images/services/Services/Service Cruise.jpeg" ],
+    images: [ "/images/media/Services/Service Cruise.jpeg" ],
     dataAiHints: [ "cruise ship ocean" ],
     listItems: [
         "Star Cruise",
@@ -107,8 +107,8 @@ const services = [
     description: "We believe in creating moments that last a lifetime. Our connections provide you with access to unique local experiences, private tours, and activities that go far beyond the standard tourist trail. Let us add that 'wow' factor to your itinerary with moments you won't find in a guidebook.",
     example: "Example: Imagine a private, after-hours tour of the Vatican Museums, a serene sunrise hot air balloon ride over the ancient temples of Bagan, or a thrilling helicopter journey over Iceland's dramatic volcanic landscapes.",
     images: [
-        "/images/services/Services/Exclusive Experience 1.jpeg",
-        "/images/services/Services/Exclusive Experience 2.jpeg"
+        "/images/media/Services/Exclusive Experience 1.jpeg",
+        "/images/media/Services/Exclusive Experience 2.jpeg"
     ],
     dataAiHints: ["hot air balloon sunrise", "couple boat"],
     },

@@ -12,10 +12,10 @@ import Link from 'next/link';
 import Autoplay from 'embla-carousel-autoplay';
 
 const teamMembers = [
-  { name: "Mr. Mohit Sharma", role: "Founder & CEO",image: "/images/services/About Us/Mohit Adbhut Founder.jpeg", dataAiHint: "man portrait" },
-  { name: "Mrs. Aditi Sharma", role: "Sales Director", image: "/images/services/About Us/Mrs. Aditi Sharma.jpg", dataAiHint: "woman portrait" },
-  { name: "Mr. Sachin", role: "Head of Operations", image: "/images/services/About Us/Sachin-OPS-Manager-Adbhut-Travel-Event-Pvt.-Ltd.png", dataAiHint: "man portrait" },
-  { name: "Mr. Ankit", role: "Business Development Manager (BDM)", image: "/images/services/About Us/Anku D.Dun.jpg", dataAiHint: "man portrait" },
+  { name: "Mr. Mohit Sharma", role: "Founder & CEO",image: "/images/media/About Us/Mohit Adbhut Founder.jpeg", dataAiHint: "man portrait" },
+  { name: "Mrs. Aditi Sharma", role: "Sales Director", image: "/images/media/About Us/Mrs. Aditi Sharma.jpg", dataAiHint: "woman portrait" },
+  { name: "Mr. Sachin", role: "Head of Operations", image: "/images/media/About Us/Sachin-OPS-Manager-Adbhut-Travel-Event-Pvt.-Ltd.png", dataAiHint: "man portrait" },
+  { name: "Mr. Ankit", role: "Business Development Manager (BDM)", image: "/images/media/About Us/Anku D.Dun.jpg", dataAiHint: "man portrait" },
 ];
 
 const youtubeVideos = [
@@ -78,7 +78,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/images/services/About Us/Our Story.jpeg"
+                src="/images/media/About Us/Our Story.jpeg"
                 alt="Our team working together on a travel plan"
                 width={600}
                 height={500}
@@ -188,7 +188,7 @@ export default function AboutPage() {
             <div className="flex flex-col items-center">
                 <div className="mb-4 flex items-center justify-center h-16">
                     <Link href="https://www.northcabs.in/" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:-translate-y-1">
-                        <Image src="/images/services/About Us/NorthCabs.png" alt="North Cab Logo" width={200} height={80} className="max-h-12 w-auto object-contain" />
+                        <Image src="/images/media/About Us/NorthCabs.png" alt="North Cab Logo" width={200} height={80} className="max-h-12 w-auto object-contain" />
                     </Link>
                 </div>
                 <h3 className="text-xl font-headline font-semibold">North Cab</h3>
@@ -197,7 +197,7 @@ export default function AboutPage() {
             <div className="flex flex-col items-center">
                 <div className="mb-4 flex items-center justify-center h-16">
                     <Link href="https://visitkurukshetra.in/" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:-translate-y-1">
-                        <Image src="/images/services/About Us/visitkurukshetra_logo.png" alt="Visit Kurukshetra Logo" width={250} height={80} className="max-h-12 w-auto object-contain" />
+                        <Image src="/images/media/About Us/visitkurukshetra_logo.png" alt="Visit Kurukshetra Logo" width={250} height={80} className="max-h-12 w-auto object-contain" />
                     </Link>
                 </div>
                 <h3 className="text-xl font-headline font-semibold">Visit Kurukshetra</h3>

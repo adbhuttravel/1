@@ -431,7 +431,7 @@ export async function submitTermsOfServiceForm(
     <body>
       <div class="wrapper">
         <div class="container">
-          <img src="https://adbhuttravel.in/images/services/adbhut-logo.png" alt="Adbhut Travel Logo" class="logo">
+          <img src="https://adbhuttravel.in/images/media/adbhut-logo.png" alt="Adbhut Travel Logo" class="logo">
           <p>By "Adbhut Travel And Event Pvt Ltd" before giving you our service, we have some terms and conditions, you are requested to read them carefully and if you accept these terms and conditions, only then we will be able to serve you.
           <br>
           "अद्भुत ट्रैवल एंड इवेंट प्राइवेट लिमिटेड" के द्वारा, आपको अपनी सर्विस देने के लिए हमारी कुछ नियम और शर्तें हैं, आपसे अनुरोध है की इन्हे धयानपूर्व पढ़े और यदि आप इन नियमों और शर्तों को स्वीकार करते हैं, तो ही हम आपको अपनी सेवा दे पाएंगे।
@@ -488,13 +488,13 @@ export async function submitTermsOfServiceForm(
             <td align="center">
               <div class="footer-content">
                 <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                  <tr><td align="center" style="padding-bottom: 32px;"><img src="https://adbhuttravel.in/images/services/Home/Adbhut-Affilications-Cetifications.png" alt="Certifications" style="max-width: 100%; height: auto;" /></td></tr>
+                  <tr><td align="center" style="padding-bottom: 32px;"><img src="https://adbhuttravel.in/images/media/Home/Adbhut-Affilications-Cetifications.png" alt="Certifications" style="max-width: 100%; height: auto;" /></td></tr>
                   <tr>
                     <td>
                       <table class="footer-links-table" cellpadding="0" cellspacing="0" border="0">
                         <tr>
                           <td>
-                            <img src="https://adbhuttravel.in/images/services/adbhut-logo.png" alt="Adbhut Logo" class="footer-logo" />
+                            <img src="https://adbhuttravel.in/images/media/adbhut-logo.png" alt="Adbhut Logo" class="footer-logo" />
                             <p style="font-weight: 600; margin: 0;">Adbhut Travel And Event Pvt. Ltd.</p>
                             <p style="font-size: 0.875rem; color: #6c757d; margin: 0;">Our Effort Your Comfort<br>CIN: U63090HR2020PTC086874</p>
                           </td>

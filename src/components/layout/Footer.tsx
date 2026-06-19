@@ -29,7 +29,7 @@ export default function Footer() {
                 </div>
             )}
             <div className="mb-12 text-center">
-                 <Image src="/images/services/Home/Adbhut-Affilications-Cetifications.png" alt="Accreditations" width={1200} height={100} className="mx-auto" />
+                 <Image src="/images/media/Home/Adbhut-Affilications-Cetifications.png" alt="Accreditations" width={1200} height={100} className="mx-auto" />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-sm">
                 {/* Company Info */}

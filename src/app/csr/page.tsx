@@ -49,11 +49,11 @@ const focusAreas = [
 ];
 
 const csrImages = [
-    "/images/services/CSR/Adbhut CSR Army Duty.jpg",
-    "/images/services/CSR/CSR Army Duty.jpg",
-    "/images/services/CSR/CSR Blood Camp 2.jpg",
-    "/images/services/CSR/CSR Blood Camp 3.jpg",
-    "/images/services/CSR/CSR Blood Donation.jpg"
+    "/images/media/CSR/Adbhut CSR Army Duty.jpg",
+    "/images/media/CSR/CSR Army Duty.jpg",
+    "/images/media/CSR/CSR Blood Camp 2.jpg",
+    "/images/media/CSR/CSR Blood Camp 3.jpg",
+    "/images/media/CSR/CSR Blood Donation.jpg"
 ];
 
 export default function CsrPage() {

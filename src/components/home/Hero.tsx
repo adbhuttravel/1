@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section className="relative h-[calc(80vh)] w-full">
       <Image
-        src="/images/media/Home/Home Page Hero.jpeg"
+        src="/images/media/Home/Home Page Hero.webp"
         alt="Tropical beach background"
         fill
         priority

@@ -11,6 +11,8 @@ import { CustomCursor } from "@/components/shared/CustomCursor";
 import { PT_Sans, Playfair_Display } from 'next/font/google';
 import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
 import Script from "next/script";
+// Forces public/images/media/* to be traced into the Firebase deploy bundle.
+import { siteMediaFiles } from "@/lib/site-media";
 
 const ptSans = PT_Sans({
   subsets: ['latin'],
@@ -96,7 +98,7 @@ export default function RootLayout({
         </noscript>
         {/* End Meta Pixel Code */}
       </head>
-      <body className="font-body antialiased flex flex-col min-h-screen bg-background">
+      <body className="font-body antialiased flex flex-col min-h-screen bg-background" data-asset-count={siteMediaFiles.length}>
         <CustomCursor />
         <Header />
         <main className="flex-grow">{children}</main>

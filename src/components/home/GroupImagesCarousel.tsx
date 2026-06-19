@@ -14,17 +14,17 @@ import {
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  "/images/media/Home/Adbhut Tour Group 1.jpg",
-  "/images/media/Home/Mice g2.jpg",
-  "/images/media/Home/Adbhut Tour Group 3.jpg",
-  "/images/media/Home/Adbhut Tour Group 4.JPG",
-  "/images/media/Home/Adbhut Tour Group 5.JPG",
-  "/images/media/Home/Mice g4.jpg",
-  "/images/media/Home/Adbhut Tour Group 7.jpg",
-  "/images/media/Home/Adbhut Tour Group 8.jpg",
-  "/images/media/Home/Adbhut Tour Group 9.png",
-  "/images/media/Home/Adbhut Tour Group 10.JPG",
-  "/images/media/Home/Adbhut Tour Group 11.jpg",
+  "/images/media/Home/Adbhut Tour Group 1.webp",
+  "/images/media/Home/Mice g2.webp",
+  "/images/media/Home/Adbhut Tour Group 3.webp",
+  "/images/media/Home/Adbhut Tour Group 4.webp",
+  "/images/media/Home/Adbhut Tour Group 5.webp",
+  "/images/media/Home/Mice g4.webp",
+  "/images/media/Home/Adbhut Tour Group 7.webp",
+  "/images/media/Home/Adbhut Tour Group 8.webp",
+  "/images/media/Home/Adbhut Tour Group 9.webp",
+  "/images/media/Home/Adbhut Tour Group 10.webp",
+  "/images/media/Home/Adbhut Tour Group 11.webp",
 ];
 
 export default function GroupImagesCarousel() {

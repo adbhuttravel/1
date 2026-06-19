@@ -12,13 +12,13 @@ const domesticPackages: Package[] = [
   {
     id: '1',
     name: 'Couple Kashmir Package',
-    image: '/images/media/Home/Feature Kashmir.jpg',
+    image: '/images/media/Home/Feature Kashmir.webp',
     dataAiHint: 'Kashmir snow couple',
     duration: '04 Nights / 05 Days',
     packageType: '(Couple)',
     facilities: ['flight', 'hotel', 'transport', 'meals', 'sightseeing'],
     gallery: [
-        '/images/media/Home/Feature Kashmir.jpg'
+        '/images/media/Home/Feature Kashmir.webp'
     ],
     galleryHints: ["Kashmir snow couple"],
     itinerary: [
@@ -32,13 +32,13 @@ const domesticPackages: Package[] = [
   {
     id: '2',
     name: '4 Person Leh Ladakh',
-    image: '/images/media/Home/Feature Leh.jpg',
+    image: '/images/media/Home/Feature Leh.webp',
     dataAiHint: 'Ladakh mountains snow',
     duration: '04 Nights / 05 Days',
     packageType: '(4 Person)',
     facilities: ['hotel', 'transport', 'meals', 'sightseeing', 'guide'],
     gallery: [
-       '/images/media/Home/Feature Leh.jpg'
+       '/images/media/Home/Feature Leh.webp'
     ],
     galleryHints: ["Ladakh mountains snow"],
     itinerary: [
@@ -52,13 +52,13 @@ const domesticPackages: Package[] = [
   {
     id: '3',
     name: 'Char dham yatra',
-    image: '/images/media/Home/Feature Char Dham.jpg',
+    image: '/images/media/Home/Feature Char Dham.webp',
     dataAiHint: 'himalayas temple pilgrimage',
     duration: '09 Nights / 10 Days',
     packageType: '(Group)',
     facilities: ['hotel', 'transport', 'meals', 'guide', 'permit'],
     gallery: [
-       '/images/media/Home/Feature Char Dham.jpg'
+       '/images/media/Home/Feature Char Dham.webp'
     ],
     galleryHints: ["himalayas temple pilgrimage"],
     itinerary: [
@@ -80,13 +80,13 @@ const internationalPackages: Package[] = [
   {
     id: '4',
     name: 'Couple Malaysia trip',
-    image: '/images/media/Home/Feature Singapore.jpg',
+    image: '/images/media/Home/Feature Singapore.webp',
     dataAiHint: 'Malaysia city skyline',
     duration: '04 Nights / 05 Days',
     packageType: '(Couple)',
     facilities: ['flight', 'hotel', 'transport', 'meals', 'visa'],
     gallery: [
-        '/images/media/Home/Feature Singapore.jpg'
+        '/images/media/Home/Feature Singapore.webp'
     ],
     galleryHints: ["Malaysia city skyline"],
     itinerary: [
@@ -100,13 +100,13 @@ const internationalPackages: Package[] = [
   {
     id: '5',
     name: 'Paris tour',
-    image: '/images/media/Home/Feature Paris.jpg',
+    image: '/images/media/Home/Feature Paris.webp',
     dataAiHint: 'Eiffel Tower',
     duration: '04 Nights / 05 Days',
     packageType: '(One Person)',
     facilities: ['flight', 'hotel', 'sightseeing', 'guide', 'insurance'],
     gallery: [
-        '/images/media/Home/Feature Paris.jpg'
+        '/images/media/Home/Feature Paris.webp'
     ],
     galleryHints: ["Eiffel Tower"],
     itinerary: [
@@ -120,13 +120,13 @@ const internationalPackages: Package[] = [
   {
     id: '6',
     name: 'Honeymoon in Bali',
-    image: '/images/media/Home/Feature Bali.jpg',
+    image: '/images/media/Home/Feature Bali.webp',
     dataAiHint: 'Bali temple lake',
     duration: '7 night 8 days',
     packageType: '(Honeymoon Couple)',
     facilities: ['flight', 'hotel', 'transport', 'meals', 'sightseeing', 'spa'],
     gallery: [
-      '/images/media/Home/Feature Bali.jpg'
+      '/images/media/Home/Feature Bali.webp'
     ],
     galleryHints: ["Bali temple lake"],
     itinerary: [

@@ -5,7 +5,7 @@ export function Logo({ className }: { className?: string }) {
   return (
     <div className={cn('transition-transform duration-300 hover:-translate-y-1', className)}>
       <Image
-        src="/images/media/adbhut-logo.png"
+        src="/images/media/adbhut-logo.webp"
         alt="Adbhut Travel And Event Pvt. Ltd. Logo"
         width={188}
         height={40}

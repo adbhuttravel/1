@@ -10,7 +10,7 @@ export default function TailoredExperience() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="rounded-lg overflow-hidden shadow-2xl transition-transform duration-300 hover:-translate-y-1">
             <Image
-              src="/images/media/Home/Tailored Experience.jpeg"
+              src="/images/media/Home/Tailored Experience.webp"
               alt="Tailored travel experience"
               width={600}
               height={700}

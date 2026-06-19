@@ -45,7 +45,7 @@ const whyChooseUs = [
 ];
 
 const clientLogos = [
-  { src: "/images/media/Home/Adbhut-Affilications-Cetifications.png", alt: "Client Accreditations", dataAiHint: "corporate accreditations" },
+  { src: "/images/media/Home/Adbhut-Affilications-Cetifications.webp", alt: "Client Accreditations", dataAiHint: "corporate accreditations" },
 ];
 
 const faqItems = [
@@ -92,13 +92,13 @@ const faqItems = [
   ];
 
 const carouselImages = [
-    "/images/media/MICE/Mice g1.jpg",
-    "/images/media/MICE/Mice g4.jpg",
-    "/images/media/MICE/Mice g3.jpg",
-    "/images/media/MICE/Mice Incentices 2.jpeg",
-    "/images/media/MICE/MICE E1.jpg",
-    "/images/media/MICE/MICE E2.jpg",
-    "/images/media/MICE/MICE E3.jpg"
+    "/images/media/MICE/Mice g1.webp",
+    "/images/media/MICE/Mice g4.webp",
+    "/images/media/MICE/Mice g3.webp",
+    "/images/media/MICE/Mice Incentices 2.webp",
+    "/images/media/MICE/MICE E1.webp",
+    "/images/media/MICE/MICE E2.webp",
+    "/images/media/MICE/MICE E3.webp"
 ];
 
 export default function MicePage() {
@@ -160,7 +160,7 @@ export default function MicePage() {
             <div className="relative h-80 md:h-96">
                <div className="absolute inset-0 bg-primary/10 rounded-lg -rotate-3 transition-transform duration-300 hover:rotate-0"></div>
                <Image
-                  src="/images/media/MICE/Mice g5.jpg"
+                  src="/images/media/MICE/Mice g5.webp"
                   alt="Corporate Event Singer"
                   fill
                   className="object-cover rounded-lg shadow-xl"
